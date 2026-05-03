@@ -1,7 +1,3 @@
-git clone https://github.com/Aaqil456/Telegram-to-fb-post-ai-Tentu! Ini adalah format **README.md** yang lebih profesional, tersusun, dan menggunakan gaya *Markdown* yang bersih supaya nampak kemas apabila dipaparkan di GitHub atau mana-mana platform *Git*.
-
----
-
 # 🤖 Telegram-to-FB Post AI Agent
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
