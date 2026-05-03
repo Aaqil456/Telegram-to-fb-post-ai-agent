@@ -4,9 +4,8 @@ from datetime import datetime
 
 def save_results(messages, file_path="results.json"):
     """
-    Save new messages into results.json.
-    Works whether the file already contains a dict with 'messages'
-    or a top-level list of messages.
+    Simpan mesej baru ke dalam results.json.
+    Menguruskan format simpanan secara konsisten dalam bentuk dictionary.
     """
     existing_messages = []
 
@@ -17,26 +16,28 @@ def save_results(messages, file_path="results.json"):
             except json.JSONDecodeError:
                 data = {}
 
-        # Handle both shapes: dict-with-'messages' and list
         if isinstance(data, dict):
             existing_messages = data.get("messages", [])
         elif isinstance(data, list):
             existing_messages = data
 
-    # Combine existing and new messages
+    # Gabungkan mesej sedia ada dengan mesej baru
     combined_messages = existing_messages + messages
 
-    # Save back in a consistent dict format
-    data = {"timestamp": datetime.now().isoformat(), "messages": combined_messages}
+    # Simpan semula dengan timestamp terkini
+    data = {
+        "timestamp": datetime.now().isoformat(),
+        "messages": combined_messages
+    }
+    
     with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 
 def load_posted_messages(file_path="results.json"):
     """
-    Load all 'original_text' entries from results.json.
-    Works safely whether results.json is a dict with 'messages'
-    or a list of messages.
+    Memuatkan semua ID mesej yang telah berjaya dipost ke Facebook
+    untuk mengelakkan duplication.
     """
     if not os.path.exists(file_path):
         return []
@@ -47,7 +48,6 @@ def load_posted_messages(file_path="results.json"):
         except json.JSONDecodeError:
             return []
 
-    # Handle both shapes: dict-with-'messages' and list
     if isinstance(data, dict):
         items = data.get("messages", [])
     elif isinstance(data, list):
@@ -55,9 +55,13 @@ def load_posted_messages(file_path="results.json"):
     else:
         items = []
 
-    posted_messages = []
+    # Ambil ID unik mesej Telegram
+    posted_ids = []
     for msg in items:
-        if isinstance(msg, dict) and "original_text" in msg:
-            posted_messages.append(msg["original_text"])
+        if isinstance(msg, dict):
+            if "id" in msg:
+                posted_ids.append(str(msg["id"]))
+            elif "telegram_id" in msg:
+                posted_ids.append(str(msg["telegram_id"]))
 
-    return posted_messages
+    return posted_ids
