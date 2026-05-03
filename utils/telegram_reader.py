@@ -14,15 +14,15 @@ async def fetch_latest_messages(client, channel_username):
     processed_groups = set() 
 
     try:
-        # 1. Gunakan iter_messages secara normal tanpa 'group_by'
+        # PENTING: iter_messages hanya untuk loop mesej, JANGAN letak group_by di sini.
         async for message in client.iter_messages(channel_username, limit=10):
             
-            # 2. Jika mesej adalah sebahagian daripada album (Media Group)
+            # 1. Jika mesej adalah sebahagian daripada album
             if message.grouped_id:
                 if message.grouped_id in processed_groups:
                     continue
                 
-                # 3. Gunakan get_messages di sini untuk kumpul album berdasarkan grouped_id
+                # Di sini baru guna get_messages untuk tarik satu album guna group_by
                 album_messages = await client.get_messages(
                     channel_username, 
                     ids=message.id, 
@@ -46,7 +46,7 @@ async def fetch_latest_messages(client, channel_username):
                 })
                 processed_groups.add(message.grouped_id)
 
-            # 4. Jika mesej tunggal (Single Photo/Video/Text)
+            # 2. Jika mesej tunggal
             else:
                 if message.text or message.media:
                     messages_data.append({
