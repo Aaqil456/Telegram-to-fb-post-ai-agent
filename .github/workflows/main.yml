@@ -1,9 +1,9 @@
-name: Run Telegram AI Agent Securely
+name: Run Telegram to FB AI Agent Securely
 
 on:
   workflow_dispatch:
-  #schedule:
-     #- cron: "*/5 * * * *"  # Runs every 5 minutes
+  # schedule:
+  #   - cron: "*/5 * * * *"  # 
 
 permissions:
   contents: write
@@ -36,31 +36,31 @@ jobs:
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_SHEET_API_KEY: ${{ secrets.GOOGLE_SHEET_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          LONG_LIVED_USER_TOKEN: ${{ secrets.LONG_LIVED_USER_TOKEN }}
         run: |
-          if [ -z "${TELEGRAM_API_ID}" ] || [ -z "${TELEGRAM_API_HASH}" ] || [ -z "${TELEGRAM_BOT_TOKEN}" ] || [ -z "${GOOGLE_SHEET_ID}" ] || [ -z "${GOOGLE_SHEET_API_KEY}" ] || [ -z "${GEMINI_API_KEY}" ]; then
-            echo "❌ One or more required secrets are missing!"
+          if [ -z "${TELEGRAM_API_ID}" ] || [ -z "${TELEGRAM_API_HASH}" ] || [ -z "${FB_PAGE_ID}" ] || [ -z "${LONG_LIVED_USER_TOKEN}" ]; then
+            echo "❌ Required secrets for FB or Telegram are missing!"
             exit 1
           fi
 
-      - name: Run Telegram AI Agent
+      - name: Run AI Agent
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_SHEET_API_KEY: ${{ secrets.GOOGLE_SHEET_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          LONG_LIVED_USER_TOKEN: ${{ secrets.LONG_LIVED_USER_TOKEN }}
         run: |
           export PYTHONPATH=$PWD
-          python exchange_info_ai_agent.py
+          python main.py
           echo "[DEBUG] Contents of results.json:"
-          cat results.json || echo "[WARNING] results.json not found or empty"
+          cat results.json || echo "[WARNING] results.json not found"
 
       - name: Commit and push updated results.json
         env:
@@ -70,10 +70,10 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add results.json
           git status
-          git diff --cached --quiet || git commit -m "Update results.json"
+          git diff --cached --quiet || git commit -m "Update results.json with FB post logs"
           git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/${{ github.repository }}.git main
 
       - name: Cleanup session file
         run: |
           rm -f telegram_session.session
-          echo "✅ Telegram session file removed for security."
+          echo "✅ Session file cleaned up."
