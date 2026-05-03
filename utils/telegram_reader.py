@@ -8,45 +8,35 @@ def extract_channel_username(url: str) -> str:
 
 async def fetch_latest_messages(client, channel_username):
     """
-    Mengambil mesej dan menguruskan grouping (album) dengan betul.
+    Mengambil mesej tanpa menggunakan parameter 'group_by' langsung 
+    untuk mengelakkan ralat Telethon.
     """
     messages_data = []
-    processed_groups = set() 
+    media_groups = {}
 
     try:
-        # PENTING: iter_messages hanya untuk loop mesej, JANGAN letak group_by di sini.
+        # Loop mesej secara normal. TIADA 'group_by' di sini.
         async for message in client.iter_messages(channel_username, limit=10):
             
-            # 1. Jika mesej adalah sebahagian daripada album
+            # Jika mesej sebahagian daripada album
             if message.grouped_id:
-                if message.grouped_id in processed_groups:
-                    continue
+                if message.grouped_id not in media_groups:
+                    media_groups[message.grouped_id] = {
+                        "id": message.id,
+                        "text": message.text or "",
+                        "date": message.date,
+                        "photos": [],
+                        "original_msg": message
+                    }
                 
-                # Di sini baru guna get_messages untuk tarik satu album guna group_by
-                album_messages = await client.get_messages(
-                    channel_username, 
-                    ids=message.id, 
-                    group_by=message.grouped_id
-                )
+                if message.media:
+                    media_groups[message.grouped_id]["photos"].append(message.media)
                 
-                caption = ""
-                all_media = []
-                for m in album_messages:
-                    if m.text: 
-                        caption = m.text
-                    if m.media: 
-                        all_media.append(m.media)
-                
-                messages_data.append({
-                    "id": message.id,
-                    "text": caption,
-                    "date": message.date,
-                    "photos": all_media, 
-                    "original_msg": message
-                })
-                processed_groups.add(message.grouped_id)
-
-            # 2. Jika mesej tunggal
+                # Pastikan caption diambil daripada mesej yang ada teks dalam album tu
+                if message.text and not media_groups[message.grouped_id]["text"]:
+                    media_groups[message.grouped_id]["text"] = message.text
+            
+            # Jika mesej tunggal
             else:
                 if message.text or message.media:
                     messages_data.append({
@@ -56,8 +46,13 @@ async def fetch_latest_messages(client, channel_username):
                         "photos": [message.media] if message.media else [],
                         "original_msg": message
                     })
-                    
+
+        # Masukkan balik media groups ke dalam list utama
+        for g_id in media_groups:
+            messages_data.append(media_groups[g_id])
+
     except Exception as e:
         print(f"⚠️ Error fetching from {channel_username}: {e}")
         
-    return messages_data
+    # Sort ikut ID supaya post tak terbalik
+    return sorted(messages_data, key=lambda x: x["id"])
