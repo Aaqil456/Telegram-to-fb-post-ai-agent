@@ -21,7 +21,7 @@ async def fetch_latest_messages(client, channel_username):
     messages = []
     try:
         # Mengambil 5 mesej terbaru dari channel
-        async for message in client.iter_messages(channel_username, limit=1):
+        async for message in client.iter_messages(channel_username, limit=5):
             # Kita kumpul data penting untuk diproses oleh main.py
             messages.append({
                 "id": message.id,
