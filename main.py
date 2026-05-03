@@ -10,24 +10,24 @@ from utils.facebook_sender import post_to_facebook
 from utils.json_writer import save_results, load_posted_messages
 
 async def main():
-    # Load Environment Variables
+    # 1. Load Environment Variables dari GitHub Secrets
     telegram_api_id = int(os.environ.get('TELEGRAM_API_ID', 0))
     telegram_api_hash = os.environ.get('TELEGRAM_API_HASH', '')
     sheet_id = os.environ.get('GOOGLE_SHEET_ID', '')
     google_sheet_api_key = os.environ.get('GOOGLE_SHEET_API_KEY', '')
 
     if not all([telegram_api_id, telegram_api_hash, sheet_id, google_sheet_api_key]):
-        print("❌ Missing essential environment variables. Please check your GitHub Secrets.")
+        print("❌ Missing essential environment variables. Check GitHub Secrets.")
         return
 
-    # Load previously posted IDs to avoid duplicates
+    # 2. Muat turun ID lama untuk elak post berulang
     posted_messages = load_posted_messages()
     result_output = []
     
-    # Fetch channel list from Google Sheet
+    # 3. Ambil senarai channel dari Google Sheet
     channels_data = fetch_channels_from_google_sheet(sheet_id, google_sheet_api_key)
 
-    # Start Telegram Client
+    # 4. Buka sesi Telegram (Hanya SATU sesi dibuka di sini)
     async with TelegramClient("telegram_session", telegram_api_id, telegram_api_hash) as client:
         for entry in channels_data:
             channel_link = entry.get("channel_link", "")
@@ -39,32 +39,33 @@ async def main():
             
             print(f"🔍 Checking channel: {channel_username}")
             
-            # Fetch latest messages from Telegram
-            messages = await fetch_latest_messages(telegram_api_id, telegram_api_hash, channel_username)
+            # 5. Panggil reader dengan pass 'client' yang sedia aktif
+            messages = await fetch_latest_messages(client, channel_username)
 
             for msg in messages:
                 msg_id = str(msg["id"])
                 
-                # Check if already posted
+                # Semak duplication
                 if msg_id in posted_messages:
                     continue
 
                 print(f"🚀 Processing message ID: {msg_id}")
 
-                # Translate content
+                # 6. Terjemah teks menggunakan Gemini
                 translated = translate_text_gemini(msg["text"])
                 image_paths = []
                 video_paths = []
 
-                # Media Handling
-                # 1. Check for photos from telegram_reader format
+                # 7. Kendalikan Media (Gambar & Video)
+                # Download gambar
                 if msg.get("photos"):
                     for i, photo_media in enumerate(msg["photos"]):
-                        path = f"temp_photo_{msg_id}_{i}.jpg"
-                        await client.download_media(photo_media, path)
-                        image_paths.append(path)
+                        if photo_media:
+                            path = f"temp_photo_{msg_id}_{i}.jpg"
+                            await client.download_media(photo_media, path)
+                            image_paths.append(path)
                 
-                # 2. Check for videos from original message
+                # Download video (jika ada)
                 if msg.get("original_msg"):
                     orig = msg["original_msg"]
                     if hasattr(orig, 'media') and isinstance(orig.media, MessageMediaDocument):
@@ -74,7 +75,7 @@ async def main():
                             await client.download_media(orig.media, vpath)
                             video_paths.append(vpath)
 
-                # Post to Facebook
+                # 8. Post ke Facebook
                 success = post_to_facebook(
                     caption=translated,
                     image_paths=image_paths,
@@ -91,27 +92,26 @@ async def main():
                         "date": str(msg["date"]),
                         "status": "Posted to FB"
                     })
-                    # Add to memory to prevent re-posting in same run
                     posted_messages.append(msg_id)
                 else:
-                    print(f"❌ Failed to post message {msg_id} to Facebook.")
+                    print(f"❌ Failed to post message {msg_id}.")
 
-                # Cleanup temp files
+                # 9. Cuci fail sementara (Cleanup)
                 for p in image_paths + video_paths:
                     if os.path.exists(p):
                         try:
                             os.remove(p)
-                        except Exception as e:
-                            print(f"⚠️ Failed to delete temp file {p}: {e}")
+                        except:
+                            pass
                 
-                # Small delay to avoid hitting FB API rate limits
+                # Delay sikit untuk elak kena block/rate limit
                 time.sleep(2)
 
-    # Save all new successful posts to results.json
+    # 10. Simpan rekod hantaran baru ke results.json
     if result_output:
         save_results(result_output)
         print(f"💾 Saved {len(result_output)} new entries to results.json")
 
 if __name__ == "__main__":
-    # Fixed syntax here
+    # Menjalankan fungsi main dalam event loop
     asyncio.run(main())
