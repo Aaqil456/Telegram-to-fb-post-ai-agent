@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Telethon](https://img.shields.io/badge/Library-Telethon-orange.svg)
-![Gemini](https://img.shields.io/badge/AI-Gemini_1.5_Flash-green.svg)
+![Gemini](https://img.shields.io/badge/AI-Gemini_3.1_Flash-green.svg)
 
 An intelligent automation agent designed to monitor Telegram channels, refine content using **Gemini AI**, and publish high-quality posts to a **Facebook Page**. This agent excels at handling complex media, specifically **Media Groups (Albums)**, ensuring they appear as a single cohesive post on Facebook.
 
