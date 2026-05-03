@@ -27,7 +27,7 @@ async def main():
     # 3. Ambil senarai channel dari Google Sheet
     channels_data = fetch_channels_from_google_sheet(sheet_id, google_sheet_api_key)
 
-    # 4. Buka sesi Telegram (Hanya SATU sesi dibuka di sini)
+    # 4. Buka sesi Telegram (Hanya SATU sesi dibuka untuk elak 'database is locked')
     async with TelegramClient("telegram_session", telegram_api_id, telegram_api_hash) as client:
         for entry in channels_data:
             channel_link = entry.get("channel_link", "")
@@ -39,7 +39,7 @@ async def main():
             
             print(f"🔍 Checking channel: {channel_username}")
             
-            # 5. Panggil reader dengan pass 'client' yang sedia aktif
+            # 5. Ambil mesej terbaru (termasuk logik kumpul album/Media Group)
             messages = await fetch_latest_messages(client, channel_username)
 
             for msg in messages:
@@ -57,13 +57,15 @@ async def main():
                 video_paths = []
 
                 # 7. Kendalikan Media (Gambar & Video)
-                # Download gambar
+                # Download semua gambar dalam album
                 if msg.get("photos"):
                     for i, photo_media in enumerate(msg["photos"]):
                         if photo_media:
+                            # Index 'i' digunakan supaya nama fail unik bagi setiap gambar dalam album
                             path = f"temp_photo_{msg_id}_{i}.jpg"
                             await client.download_media(photo_media, path)
-                            image_paths.append(path)
+                            if os.path.exists(path):
+                                image_paths.append(path)
                 
                 # Download video (jika ada)
                 if msg.get("original_msg"):
@@ -73,9 +75,10 @@ async def main():
                         if "video" in mime:
                             vpath = f"temp_video_{msg_id}.mp4"
                             await client.download_media(orig.media, vpath)
-                            video_paths.append(vpath)
+                            if os.path.exists(vpath):
+                                video_paths.append(vpath)
 
-                # 8. Post ke Facebook
+                # 8. Post ke Facebook sebagai satu post (Album/Video/Text)
                 success = post_to_facebook(
                     caption=translated,
                     image_paths=image_paths,
@@ -104,7 +107,7 @@ async def main():
                         except:
                             pass
                 
-                # Delay sikit untuk elak kena block/rate limit
+                # Delay sikit untuk hormati API rate limit
                 time.sleep(2)
 
     # 10. Simpan rekod hantaran baru ke results.json
@@ -113,5 +116,5 @@ async def main():
         print(f"💾 Saved {len(result_output)} new entries to results.json")
 
 if __name__ == "__main__":
-    # Menjalankan fungsi main dalam event loop
+    # Menjalankan fungsi main menggunakan asyncio
     asyncio.run(main())
