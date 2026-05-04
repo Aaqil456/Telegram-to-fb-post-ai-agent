@@ -27,7 +27,8 @@ async def main():
     # 3. Ambil senarai channel dari Google Sheet
     channels_data = fetch_channels_from_google_sheet(sheet_id, google_sheet_api_key)
 
-    # 4. Buka SATU sesi Telegram (Menggunakan satu client sepanjang runtime)
+    # 4. Buka SATU sesi Telegram
+    # Pastikan nama session "telegram_session" selari dengan .session file kau
     async with TelegramClient("telegram_session", telegram_api_id, telegram_api_hash) as client:
         for entry in channels_data:
             channel_link = entry.get("channel_link", "")
@@ -39,22 +40,34 @@ async def main():
             
             print(f"🔍 Checking channel: {channel_username}")
             
-            # 5. Panggil reader dengan pass 'client' yang sedia aktif
+            # 5. Ambil mesej terbaru
             messages = await fetch_latest_messages(client, channel_username)
 
             for msg in messages:
                 msg_id = str(msg["id"])
+                
+                # Check if already posted
                 if msg_id in posted_messages:
                     continue
 
                 print(f"🚀 Processing message ID: {msg_id}")
 
-                # 6. Terjemah teks
-                translated = translate_text_gemini(msg["text"])
+                # 6. Terjemah teks guna Gemini
+                original_text = msg.get("text", "")
+                translated = translate_text_gemini(original_text)
+                
+                # --- LANGKAH 6.5: SEMAKAN TERJEMAHAN ---
+                # Jika mesej ada teks, tapi hasil translate sama dengan asal 
+                # (Maksudnya Gemini error & return fallback), kita SKIP post ini.
+                if original_text.strip() != "" and translated == original_text:
+                    print(f"⚠️ Skipping post {msg_id} sebab Gemini gagal translate (Fallback detected).")
+                    continue
+                # ---------------------------------------
+
                 image_paths = []
                 video_paths = []
 
-                # 7. Kendalikan Media (Download semua media dalam satu senarai)
+                # 7. Kendalikan Media (Download)
                 if msg.get("photos"):
                     for i, photo_media in enumerate(msg["photos"]):
                         if photo_media:
@@ -74,7 +87,8 @@ async def main():
                             if os.path.exists(vpath):
                                 video_paths.append(vpath)
 
-                # 8. Post ke Facebook (Menghantar list image_paths)
+                # 8. Post ke Facebook
+                # translated akan hantar teks BM jika berjaya, atau skip jika gagal
                 success = post_to_facebook(
                     caption=translated,
                     image_paths=image_paths,
@@ -86,16 +100,16 @@ async def main():
                     print(f"✅ Successfully posted to Facebook: {msg_id}")
                     result_output.append({
                         "channel_link": channel_link,
-                        "original_text": msg["text"],
+                        "original_text": original_text,
                         "id": msg_id,
                         "date": str(msg["date"]),
                         "status": "Posted to FB"
                     })
                     posted_messages.append(msg_id)
                 else:
-                    print(f"❌ Failed to post message {msg_id}.")
+                    print(f"❌ Failed to post message {msg_id} to Facebook.")
 
-                # 9. Cleanup
+                # 9. Cleanup fail sementara
                 for p in image_paths + video_paths:
                     if os.path.exists(p):
                         try:
@@ -103,9 +117,10 @@ async def main():
                         except:
                             pass
                 
-                time.sleep(2)
+                # Delay sikit antara posts
+                await asyncio.sleep(2)
 
-    # 10. Save results
+    # 10. Simpan rekod larian
     if result_output:
         save_results(result_output)
         print(f"💾 Saved {len(result_output)} new entries to results.json")
