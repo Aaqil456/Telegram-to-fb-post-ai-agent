@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-06T09:14:03.589479",
+    "timestamp": "2026-05-06T10:52:37.427492",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -734,6 +734,41 @@
             "original_text": "iQOO Z11 And Z11x Lands In Malaysia\n\niQOO today has officially launched two of its latest midrange smartphones in Malaysia, namely the Z11 and Z11x. The line-up is positioned to offer large battery capacities, with the former featuring a Qualcomm chipset while the latter comes with a Dimensity SoC.\n\nBoth offer a similar design language where both feature flat sides and dual…\n\nhttps://www.lowyat.net/2026/391960/iqoo-z11-and-z11x-lands-in-malaysia/",
             "id": "12171",
             "date": "2026-05-06 09:06:45+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🤩 **MIT’s AI Controls Human Muscles via Electric Impulses**\n\n**MIT** created an AI system that connects to a human arm and sends weak electric impulses to contract specific muscles. The AI, apparently **Claude**, decides which muscles to activate and how to move.\n\nThe project, called **Human Operator**, was built in days by a small team during the Hard Mode hackathon, winning first place.\n\nIt aims to help people learn new skills or recover from injuries by letting AI directly control muscle movement.\n\n**📊**** ****@tech**",
+            "id": "3321",
+            "date": "2026-05-04 12:04:35+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🍏 **Next AirPods May Get Infrared Cameras**\n\n**Apple** plans to add infrared cameras to the next AirPods, likely named **AirPods Ultra**. \n\nThese cameras won’t record video but will help Siri understand the environment. Gesture control may also be included.\n\nThe feature aims to make AirPods act more like smart glasses. The new model could launch in September with the foldable **iPhone Ultra**.\n\n**📊****@tech**",
+            "id": "3322",
+            "date": "2026-05-04 16:03:04+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🎁 **Unity AI launched in open beta**\n\n[Unity AI](https://unity.com/features/ai) is in open beta as an agent inside the Unity editor. It features a built-in asset and 3D model generator that works without learning the interface.\n\nIt includes an [MCP server](https://docs.unity3d.com/Packages/com.unity.ai.assistant@2.7/manual/integration/unity-mcp-get-started.html) for integration with Claude Code and other agents, aiming to streamline game development workflows.\n\n**📊****@tech**",
+            "id": "3323",
+            "date": "2026-05-05 09:15:19+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🎵 **Vinyl Player Controlled by Construction Crane**\n\nSwedish designer Love Hultén built a vinyl player where the tonearm is replaced by a construction crane. The user manually controls the crane via an aluminum panel with buttons and knobs, moving the needle left, right, up, and down.\n\nThe needle’s precise movements are powered by motors and Arduino-based sensors. There is no automatic playback, each listen requires physically guiding the stylus over the record.\n\nThis custom-made player was created for a collector and won’t be mass-produced. It works perfectly as an art piece.\n\n**📊****@tech**",
+            "id": "3327",
+            "date": "2026-05-05 15:15:58+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "**😺**** OpenAI rolls out GPT Instant 5.5 with shorter and more accurate responses**\n\nOpenAI has updated GPT Instant to version 5.5 and is rolling it out to all ChatGPT users.\n\nThe model produces shorter answers and reduces hallucinations while improving overall reasoning quality.\n\nOpenAI also updated the memory interface to show which stored memories influenced each response.\n\nThe update focuses on clarity and transparency in everyday use.\n\n**📊****@tech**",
+            "id": "3330",
+            "date": "2026-05-06 08:01:53+00:00",
             "status": "Posted to FB"
         }
     ]
