@@ -33,10 +33,14 @@ def post_to_facebook(caption: str, image_paths: list = None, video_paths: list =
         print("[FB] Error: No Page Token found.")
         return False
 
-    # Tambah maklumat sumber di hujung caption jika ada
+    # --- KEMASKINI LOGIK SUMBER ---
     full_caption = caption or ""
-    if sumber:
-        full_caption += f"\n\nSumber: {sumber}"
+    
+    # Kita guna .strip() untuk buang space kosong. 
+    # Kalau 'sumber' ada isi baru kita tambah perkataan "Sumber:"
+    if sumber and str(sumber).strip():
+        full_caption += f"\n\nSumber: {sumber.strip()}"
+    # ------------------------------
 
     try:
         # 1. Post Video (Priority)
