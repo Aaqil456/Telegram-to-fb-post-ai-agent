@@ -29,12 +29,13 @@ def translate_text_gemini(text: str, model: str = GEMINI_MODEL) -> str:
         "- Keep it simple and easy to understand.\n"
         "- Maintain a clean, neutral, and informative vibe.\n\n"
         "### LINK & SOURCE HANDLING:\n"
-        "- Remove any links"
-        "- STRICTLY REMOVE any platform tags and source links.\n"
-        "- Remove any call to action links"
-        "- PURGE call-to-action phrases (e.g., 'Read more').\n"
-        "### OUTPUT RULES:\n"
+        "- STRICTLY REMOVE any links, platform tags, and source links.\n"
+        "- PURGE call-to-action phrases (e.g., 'Read more', 'Join now').\n\n"
+        "### OUTPUT RULES (CRITICAL):\n"
         "- Return ONLY the translated text.\n"
+        "- DO NOT include any AI disclaimers, notes, or introductions (e.g., NO 'Penafian: Disusun oleh AI').\n"
+        "- DO NOT add any extra commentary or explanations.\n"
+        "- If the text is a short title like 'Kebarangkalian tiada memori', translate it normally but do not add formatting.\n\n"
         f"Text:\n{text}"
     )
 
