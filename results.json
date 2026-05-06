@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-06T15:39:45.815872",
+    "timestamp": "2026-05-06T17:11:29.700386",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -1154,6 +1154,27 @@
             "original_text": "Cold Storage anchors The Tenz Emporium, marking its first Kedah outlet\n[(Read more)](https://www.edgeprop.my/content/1916044/cold-storage-anchors-tenz-emporium-marking-its-first-kedah-outlet)",
             "id": "11876",
             "date": "2026-05-06 15:08:24+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "**🤖**** Researchers trick Claude into generating harmful content via “psychological” prompts**\n\nMindgard researchers got Claude Sonnet 4.5 to produce prohibited outputs including malicious code and explosive instructions without directly asking for them.\n\nThe method relied on flattery, doubt, and conversational pressure. Over about 25 turns, the model began exploring its own limits and started offering restricted content on its own.\n\nThe exploit targeted behavioral patterns rather than technical flaws, using the model’s helpfulness and tendency to comply.\n\n**📊**** ****@tech**",
+            "id": "3332",
+            "date": "2026-05-06 16:04:50+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: TELEGRAM CEO DUROV REPORTS “TON LEADS LAYER-1 BLOCKCHAINS IN FINALITY TIME”\n\nSOURCE: t.me/durov/503",
+            "id": "3407",
+            "date": "2026-05-06 16:06:00+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Instagram Menguji Label AI Creator Bagi Mengelakkan Kekeliruan Kandungan AI\n\nhttps://cms.amanz.my/2026563301/",
+            "id": "54712",
+            "date": "2026-05-06 16:14:26+00:00",
             "status": "Posted to FB"
         }
     ]
