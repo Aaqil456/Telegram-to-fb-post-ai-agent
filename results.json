@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-07T21:04:30.905446",
+    "timestamp": "2026-05-07T22:14:24.089201",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -1644,6 +1644,20 @@
             "original_text": "BREAKING: DL NEWS IS CLOSING\n\nSOURCE: https://www.dlnews.com/articles/people-culture/dl-news-is-closing/",
             "id": "3418",
             "date": "2026-05-07 19:38:59+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: TELEGRAM CEO PAVEL DUROV SAYS “FEW PEOPLE REALIZE JUST HOW DECENTRALIZED TON IS”",
+            "id": "3413",
+            "date": "2026-05-07 12:24:09+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "BREAKING: CHARTS & PRICES NOW EMBEDDED DIRECTLY IN X POSTS",
+            "id": "3419",
+            "date": "2026-05-07 21:52:00+00:00",
             "status": "Posted to FB"
         }
     ]
