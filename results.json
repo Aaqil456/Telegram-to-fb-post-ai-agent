@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-08T07:26:27.147017",
+    "timestamp": "2026-05-08T08:57:17.178843",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -1875,6 +1875,48 @@
             "original_text": "Sony Teases “The Next R” Camera Launch For 13 May\n\nSony has announced a new launch event scheduled for 13 May at 9:30PM local time, with teaser posts across its social media channels hinting at “the next R.” While the company stopped short of revealing any specific product details, the wording strongly suggests that a new addition to its high-resolution Alpha camera lineup is on…\n\nhttps://www.lowyat.net/2026/392164/sony-next-r-camera-teaser-13-may/",
             "id": "12194",
             "date": "2026-05-08 06:28:26+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🤖 **Anthropic agents now self-improve during idle time**\n\n**Anthropic** launched a new feature called dreaming in its research preview. It activates when agents are idle between sessions, letting them analyze past interactions to spot repeated errors, user preferences, and workflows.\n\nThe agent updates its memory by adding effective patterns and rules based on this analysis. Users can choose automatic updates or require manual approval.\n\nThis should improve agent performance and reduce resource use by keeping memory compact. The feature is currently limited to **Claude Managed Agents**.\n\n**📊****@tech**",
+            "id": "3336",
+            "date": "2026-05-08 07:59:58+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🪐 **Milky Way Photo Contest Breaks Record**\n\nThe Milky Way Photographer of the Year contest got over **6,500** entries from **15** countries, a new record.\n\nThe final selection includes **25** photos from **12** countries.\n\nThe winner collection is on [Capture the Atlas’s site](https://capturetheatlas.com/milky-way-photographer-of-the-year/).\n\n**📊****@tech**",
+            "id": "3344",
+            "date": "2026-05-08 08:00:01+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Harga Siri Konsol Permainan Nintendo Switch Akan Dinaikkan Tidak Lama Lagi\n\nhttps://cms.amanz.my/2026563611/",
+            "id": "54741",
+            "date": "2026-05-08 07:32:04+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/banknegaramalaysia",
+            "original_text": "PKS mungkin berdepan tekanan kewangan sementara disebabkan oleh konflik yang sedang berlaku di Asia Barat. Kemudahan Bantuan Kestabilan PKS (SME SRF) disediakan untuk membantu perniagaan menguruskan aliran tunai dan meneruskan operasi.\n\nSebagai permulaan, sila rujuk senarai institusi kewangan peserta dan hubungi bank anda.\n\nKetahui lebih lanjut melalui: www.bnm.gov.my/funds4sme\n__\n\nSMEs may be facing temporary financial pressures due to the ongoing conflict. The SME Stabilisation Relief Facility (SME SRF) is available to help businesses manage cash flow and sustain operations.\n\nTo get started, view the list of participating financial institutions (PFIs) and speak to your bank.\n\nLearn more at: www.bnm.gov.my/funds4sme",
+            "id": "4320",
+            "date": "2026-05-08 08:50:02+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/myedgeprop",
+            "original_text": "KJTS to let JV take over KIP REIT malls contracts\n[(Read more)](https://www.edgeprop.my/content/1916067/kjts-let-jv-take-over-kip-reit-malls-contracts)",
+            "id": "11895",
+            "date": "2026-05-08 08:15:08+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "The Google Fitbit Air Is A Screenless Fitness Tracker With A 7-Day Battery Life\n\nGoogle has unveiled a new wearable under the Fitbit branding. As one can probably tell by the name, the Fitbit Air is a lightweight fitness tracker. What sets this particular device apart is its screenless design, making it a simple and discreet alternative to conventional fitness trackers.\n\nAccording to Google, the Fitbit Air is the…\n\nhttps://www.lowyat.net/2026/392168/google-fitbit-air-screenless-fitness-tracker/",
+            "id": "12195",
+            "date": "2026-05-08 08:01:26+00:00",
             "status": "Posted to FB"
         }
     ]
