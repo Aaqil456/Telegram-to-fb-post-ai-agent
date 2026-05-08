@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-08T11:54:11.964203",
+    "timestamp": "2026-05-08T13:25:45.832433",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -1973,6 +1973,27 @@
             "original_text": "Nintendo To Raise Switch Console, Online Membership Prices\n\nNintendo has announced a price increase for its entire Switch console lineup in Japan, affecting every currently available model. These include the base, OLED and Lite versions of the original Nintendo Switch, as well as the Nintendo Switch 2.\n\nThe revised pricing will take effect in Japan starting 25 May 2026, with each console receiving…\n\nhttps://www.lowyat.net/2026/392220/nintendo-to-raise-switch-console-online-membership-prices/",
             "id": "12198",
             "date": "2026-05-08 11:08:29+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🔍 **Google speeds up Gemma-4 with multi-token drafts**\n\nGoogle introduced Multi-Token Prediction (MTP) drafters for **Gemma-4**, letting it predict several tokens at once instead of one by one. This cuts down the slow step-by-step token generation typical of transformer models.\n\nA small auxiliary model drafts multiple tokens ahead. The main model then verifies this batch in a single pass. If a token is wrong, it gets replaced and the draft restarts from that point. This saves multiple passes through the main model.\n\nMTP boosts generation speed by about 3 times without quality loss. Google released all drafters, so this faster mode is ready for testing.\n\n**📊****@tech**",
+            "id": "3346",
+            "date": "2026-05-08 11:59:58+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/trading",
+            "original_text": "⚡️ **JUST IN:** **US economy adds 115,000 jobs in April, beating expectations**\n\nThe **US economy** added **115,000 jobs in April**, surpassing forecasts of **65,000**. The **unemployment rate** remained steady at **4.3%**, matching expectations.\n\nThis brings the total job gains to **300,000 over the past two months**. The report shows strength despite ongoing tensions related to the **Iran War**.\n\n**✅****@trading**",
+            "id": "7615",
+            "date": "2026-05-08 12:58:09+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/myedgeprop",
+            "original_text": "Zelan unit to transfer two Wisma Zelan office suites to MMC Engineering Sdn Bhd to settle RM5.22m debt\n[(Read more)](https://www.edgeprop.my/content/1916069/zelan-unit-transfer-two-wisma-zelan-office-suites-mmc-engineering-sdn-bhd-settle-rm522m-debt)",
+            "id": "11897",
+            "date": "2026-05-08 12:36:14+00:00",
             "status": "Posted to FB"
         }
     ]
