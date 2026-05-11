@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-11T22:18:07.897022",
+    "timestamp": "2026-05-11T23:15:13.733054",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -2652,6 +2652,20 @@
             "original_text": "NEW: RAY DALIO SAYS BITCOIN HASN’T BEEN THE SAFE-HAVEN EXPECTED - LACKS PRIVACY, CORRELATES WITH TECH STOCKS, AND IS A SMALL/CONTROLLABLE MARKET VS. UNIQUE GOLD",
             "id": "3437",
             "date": "2026-05-11 22:16:28+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: ZAP TO SHUT DOWN ON JUNE 1",
+            "id": "3438",
+            "date": "2026-05-11 22:38:57+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: BITCOIN ORDINALS EXPLORER ORD.IO TO SHUT DOWN ON JUNE 1",
+            "id": "3439",
+            "date": "2026-05-11 22:51:00+00:00",
             "status": "Posted to FB"
         }
     ]
