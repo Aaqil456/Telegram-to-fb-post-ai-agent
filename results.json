@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-12T11:36:26.802758",
+    "timestamp": "2026-05-12T13:31:41.313935",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -2946,6 +2946,62 @@
             "original_text": "Sony To Launch New The ColleXion Premium Wireless Headset In Two Colours\n\nYou’ve probably already seen leaks of Sony’s The ColleXion, a pair of headphones described as a more premium, “upmarket” version of the brand’s existing WH-1000XM6. Now, thanks to Android Headlines, we’re more or less assured that headphones are coming in two colour ways: Black and White.\n\nThe white model of The ColleXion was first spotted…\n\nhttps://www.lowyat.net/2026/392379/sony-to-launch-new-the-collexion-premium-wireless-headset-in-two-colours/",
             "id": "12225",
             "date": "2026-05-12 07:47:50+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🔍 **Google ties reCAPTCHA to Play Services**\n\nThe **new reCAPTCHA on Android requires Google Play Services version 25.41.30 or higher**. Without these, verification fails, blocking users on **custom ROMs like GrapheneOS** that lack Google software.\n\nInstead of image challenges, users must now **scan a QR code**. This depends on **background Play Services connecting to Google servers**. **iOS devices running 16.4 or later** pass without Google apps.\n\nGoogle introduced this update as part of its **Cloud Fraud Defense platform on April 23**. The Play Services dependency was not mentioned then.\n\nBy **linking web verification to proprietary services**, Google forces Android users to run its software and share data to access many websites.\n\n**📊**** ****@tech**",
+            "id": "3361",
+            "date": "2026-05-12 12:04:06+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/trading",
+            "original_text": "⚡️ **JUST IN:** **Iran** has warned it could enrich uranium to **90% purity** if attacked again by **the US or Israel**.\n\n**90% enrichment** is widely considered **weapons-grade uranium**.\n\n**✅****@trading**",
+            "id": "7645",
+            "date": "2026-05-12 12:09:02+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: SAYLOR SAYS \"LAST NIGHT’S CLARITY ACT MARKUP WOULD UNLOCK THE NEXT WAVE OF DIGITAL CAPITAL, DIGITAL CREDIT, AND DIGITAL EQUITY IN THE U.S. AND GLOBALLY — INSTITUTIONAL VALIDATION FOR $BTC, A FRAMEWORK FOR $STRC -POWERED DIGITAL YIELD MARKETS, AND BROADER ADOPTION OF $MSTR\"",
+            "id": "3443",
+            "date": "2026-05-12 12:06:13+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: DTCC BUILDS OUT BLOCKCHAIN-BASED COLLATERAL SYSTEM WITH CHAINLINK INTEGRATION - PER COINDESK\n\nSOURCE: https://www.coindesk.com/business/2026/05/12/dtcc-taps-chainlink-for-its-tokenized-collateral-platform-ahead-of-q4-launch",
+            "id": "3444",
+            "date": "2026-05-12 12:19:51+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: SOLANA CO-FOUNDER TOLY HIGHLIGHTS CLAIM SOLANA-BASED PERP EXCHANGE PHOENIX IS 6X CHEAPER THAN HYPERLIQUID",
+            "id": "3445",
+            "date": "2026-05-12 13:23:31+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Samsung Dilaporkan Nafi Dakwaan Guna Gambar Dua Lipa Tanpa Kebenaran\n\nhttps://cms.amanz.my/2026563885/",
+            "id": "54787",
+            "date": "2026-05-12 11:05:28+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Lenovo Legion Y70 2026 Specifications Revealed Ahead Of China Launch\n\nLenovo is planning to launch a new handset in China pretty soon. Despite looking more like a Motorola product, the Legion Y70 2026 is a gaming smartphone. In fact, it is the brand’s first gaming phone in quite a while. Ahead of the official launch, Lenovo has shared some details on the device, including its…\n\nhttps://www.lowyat.net/2026/392390/lenovo-legion-y70-2026-specifications/",
+            "id": "12226",
+            "date": "2026-05-12 09:00:21+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Unitree Unveils GD01; Transforming “Mecha” With Biped, Quadruped Modes\n\nDespite it being the Japanese that has dominated pop media with the mecha science fiction genre, it looks like it’s the Chinese that is now closer to making it a reality. Chinese robotics firm Unitree has unveiled the GD01, which is described as a manned, transformable “mecha”. To say that it elicits mixed feelings is…\n\nhttps://www.lowyat.net/2026/392404/unitree-gd01-transforming-mecha-biped-quadruped-modes/",
+            "id": "12228",
+            "date": "2026-05-12 12:06:30+00:00",
             "status": "Posted to FB"
         }
     ]
