@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-14T18:52:34.144679",
+    "timestamp": "2026-05-14T21:44:09.590132",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -4332,6 +4332,20 @@
             "original_text": "NEW: $CBRS STOCK TRADING HALTED ON NASDAQ\n\nSOURCE: https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
             "id": "3484",
             "date": "2026-05-14 17:04:33+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "BREAKING: BITWISE HYPERLIQUID ETF  - OFFERING 100% DIRECT EXPOSURE TO SPOT $HYPE AND THE FIRST TO USE IN-HOUSE STAKING - TO START TRADING TOMORROW",
+            "id": "3485",
+            "date": "2026-05-14 20:55:18+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: RANGER CO-FOUNDER SAYS PROJECT IS WINDING DOWN",
+            "id": "3486",
+            "date": "2026-05-14 21:02:05+00:00",
             "status": "Posted to FB"
         }
     ]
