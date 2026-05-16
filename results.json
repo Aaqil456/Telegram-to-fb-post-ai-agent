@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-16T13:23:29.205779",
+    "timestamp": "2026-05-16T15:41:17.155453",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -5088,6 +5088,27 @@
             "original_text": "Apple’s macOS Security Reportedly Cracked With Help From Claude Mythos\n\nAnthropic’s advanced cybersecurity-focused AI model, Claude Mythos, has reportedly helped security researchers uncover what is being described as the first public macOS kernel memory corruption exploit on Apple’s M5 silicon. According to a report by The Wall Street Journal, researchers from Palo Alto-based security firm Calif used Claude Mythos Preview to identify vulnerabilities in macOS…\n\nhttps://www.lowyat.net/2026/392921/apples-macos-security-cracked-claude-mythos/",
             "id": "12279",
             "date": "2026-05-16 12:15:02+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🤖 **Anthropic agents port Bun to Rust in 10 days**\n\nA merge PR with **1 million lines of code** for the Bun project was completed in just over a week by agents. Bun, owned by **Anthropic** since late last year, is a runtime for JavaScript and TypeScript originally written in Zig.\n\nThe creator **Jarred Sumner** started an experimental rewrite of Bun in Rust using **Claude** about 10 days ago. The new Rust code is already on track to merge into the main build, passing **99.8% of tests** in canary.\n\n**📊****@tech**",
+            "id": "3384",
+            "date": "2026-05-16 15:00:36+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/trading",
+            "original_text": "**Don’t expect immediate results.\n\nIt may take longer than you think to become consistently profitable.\n\nA lot depends on how emotionally attached you are to the outcome. When the desire to make money burns too intensely, it often gets in your way. You force trades, overreact, and lose perspective.\n\nVery often, progress comes only after the obsession fades.\n\nThe more calmly you approach the process, the faster things tend to fall into place.\n\nWhen you stop desperately wanting the result, you gain the freedom to focus on what actually matters: executing your process instead of worrying about whether you will fail.**\n\n**✅****@trading**",
+            "id": "7679",
+            "date": "2026-05-16 15:32:30+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: BHUTAN ‘DOESN’T RECALL’ SELLING ANY BITCOIN, DISPUTING WIDELY-TRACKED $1 BILLION BTC DRAWDOWN - COINDESK\n\nSOURCE: https://www.coindesk.com/markets/2026/05/16/bhutan-doesn-t-recall-selling-any-bitcoin-disputing-widely-tracked-usd1-billion-btc-drawdown",
+            "id": "3501",
+            "date": "2026-05-16 15:15:23+00:00",
             "status": "Posted to FB"
         }
     ]
