@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-17T17:37:25.070433",
+    "timestamp": "2026-05-17T18:40:32.598049",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -5249,6 +5249,13 @@
             "original_text": "NEW: AAVE ANNOUNCES “IN ACCORDANCE WITH THE RSETH TECHNICAL RECOVERY PLAN, WETH LTVS ON AAVE V3 ETHEREUM CORE, ETHEREUM PRIME, ARBITRUM, BASE, MANTLE, AND LINEA HAVE BEEN RESTORED TO THEIR PRE-INCIDENT VALUES” - “WETH NOW OPERATES AS NORMAL ACROSS ALL AFFECTED V3 DEPLOYMENTS”",
             "id": "3505",
             "date": "2026-05-17 16:36:25+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: ETHENA $USDe SUPPLY ON SOLANA INCREASED BY OVER $560M IN 5 DAYS - PER DEFILLAMA DATA\n\nSOURCE: https://defillama.com/stablecoin/ethena-usde?chartView=breakdown",
+            "id": "3506",
+            "date": "2026-05-17 17:43:54+00:00",
             "status": "Posted to FB"
         }
     ]
