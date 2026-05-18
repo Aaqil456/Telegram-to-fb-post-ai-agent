@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-18T20:12:06.833370",
+    "timestamp": "2026-05-18T21:41:31.115691",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -5774,6 +5774,20 @@
             "original_text": "BREAKING: TRUMP ANNOUNCES HE IS POSTPONING TOMORROW’S PLANNED U.S. ATTACK ON IRAN",
             "id": "3525",
             "date": "2026-05-18 19:08:51+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: COINBASE DERIVATIVES TO LAUNCH $BNB AND $HYPE MONTHLY AND PERPETUAL-STYLE FUTURES",
+            "id": "3526",
+            "date": "2026-05-18 20:38:55+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: SEC IS EXPECTED TO RELEASE ITS SO-CALLED INNOVATION EXEMPTION FOR TOKENIZED STOCKS AS SOON AS THIS WEEK - BLOOMBERG LAW\n\nSOURCE: https://news.bloomberglaw.com/crypto/sec-is-said-to-ready-plan-for-trading-crypto-versions-of-stocks",
+            "id": "3527",
+            "date": "2026-05-18 21:29:12+00:00",
             "status": "Posted to FB"
         }
     ]
