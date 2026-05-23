@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-23T07:40:19.983740",
+    "timestamp": "2026-05-23T09:26:09.064787",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -7874,6 +7874,27 @@
             "original_text": "GitHub Confirms Major Breach; Around 3,800 Repositories Affected\n\nGitHub has confirmed a major security breach involving around 3,800 internal code repositories after hackers compromised an employee’s device using a malicious Visual Studio (VS) Code extension. The company says the incident was detected on 19 May and is currently under investigation.\n\nThe attack has been linked to cybercrime group TeamPCP, which later claimed responsibility…\n\nhttps://www.lowyat.net/2026/393621/github-confirms-major-breach-may-2026/",
             "id": "12353",
             "date": "2026-05-23 07:24:36+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: HYPERLIQUID ROLLING OUT PREDICTION MARKETS SETTLED IN $USDC\n\nAS HIP-4 ADOPTS $USDC AS QUOTE ASSET, SUNSETTING $USDH",
+            "id": "3573",
+            "date": "2026-05-23 09:13:36+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Kajian Mendapati Pusat Data Menaikkan Suhu Kawasan Persekitaran Sehingga 2°C\n\nhttps://cms.amanz.my/2026565736/",
+            "id": "54984",
+            "date": "2026-05-23 09:17:10+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "AMD Releases WHQL Drivers For Older Radeon Polaris And Vega GPUs\n\nIf you’re one of those PC gamers who are still using AMD’s Polaris or Vega series GPUs, you may be happy to know that the red chipmaker released a new WHQL driver update for them. The new Adrenalin Edition 26.5.2 files are separate from the current RDNA series GPUs, and again, are targeted towards older…\n\nhttps://www.lowyat.net/2026/393620/amd-releases-whql-drivers-for-older-radeon-polaris-and-vega-gpus/",
+            "id": "12354",
+            "date": "2026-05-23 07:48:08+00:00",
             "status": "Posted to FB"
         }
     ]
