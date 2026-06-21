@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-06-20T14:35:30.028689",
+    "timestamp": "2026-06-21T05:15:37.215646",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -15469,6 +15469,20 @@
             "original_text": "NEW: HYPERLIQUID ANNOUNCES \"AS PART OF THE USDH SUNSET, ALL USDH-DENOMINATED MARKETS ON HYPERCORE HAVE COMPLETED SETTLEMENT\"\n\nUSERS ARE RECOMMENDED TO IMMEDIATELY: \n\n- SWAP USDH ON HYPERCORE FOR USDC ON THE SPOT ORDER BOOK\n\n- SWAP USDH ON HYPEREVM FOR USDC 1:1 WITH NO FEES VIA ACROSS\n\n- WITHDRAW SUPPLIED USDH FROM BORROW/LEND\n\n- REPAY BORROWED USDH BY BUYING USDH/USDC",
             "id": "3778",
             "date": "2026-06-20 14:15:48+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "The Solana blockchain is doing 2x the 24-hour app revenue of Hyperliquid L1, 2.6x that of Ethereum, 2.9x that of Polygon, and 8x that of Base\n\nSource: DefiLlama.com - https://defillama.com/chains",
+            "id": "3779",
+            "date": "2026-06-21 03:01:18+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "ICYMI: NEW YORK POST REPORTS “BIZARRE” PUMPFUN BOUNTY SITE “HAS DESPERATE RISK-TAKERS TATTOOING THEIR FOREHEADS, CLIMBING MOUNT EVEREST FOR CRYPTO​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​“\n\nSOURCE: https://nypost.com/2026/06/20/world-news/bizarre-bounty-site-has-desperate-risk-takers-tattooing-their-foreheads-climbing-mount-everest-for-crypto/?utm_campaign=nypost&utm_source=twitter&utm_medium=social",
+            "id": "3780",
+            "date": "2026-06-21 03:22:47+00:00",
             "status": "Posted to FB"
         }
     ]
