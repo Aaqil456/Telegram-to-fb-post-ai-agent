@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-03T05:03:04.207975",
+    "timestamp": "2026-07-03T08:19:48.365419",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -18941,6 +18941,90 @@
             "original_text": "Samsung Reportedly Bringing Privacy Display To Entire Galaxy S27 Lineup\n\nWhenever a new Galaxy S series launches, Samsung typically reserves its flashiest new feature for the Ultra model. For the Galaxy S26 Ultra, that was the Privacy Display. Normally, a feature like this would remain exclusive to Samsung’s top-tier flagship for at least another generation. However, a new report suggests that may not be the…\n\nhttps://www.lowyat.net/2026/397563/samsung-privacy-display-galaxy-s27/",
             "id": "12787",
             "date": "2026-07-03 03:10:26+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🔍 **Google Builds Data Center from Old Smartphones**\n\n**Google and UC San Diego researchers** are creating a data center using **2,000 recycled Pixel smartphones**, launching this fall. They remove screens and batteries, using only the motherboards clustered into a computing platform.\n\nThe project runs a Linux server distro on Android hardware, turning each phone into a small server. Some smartphone cores outperform traditional server cores in benchmarks, but limited memory and I/O restrict tasks.\n\nA **20-phone cluster handled 75+ students’ workloads** faster than a standard AWS backend. The full cluster aims to deliver **about 50 servers at a fraction of typical costs**. Reliability remains a key concern since phones aren’t built for continuous heavy use.\n\n**📊****@tech**",
+            "id": "3591",
+            "date": "2026-07-03 08:01:49+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/bursamalaysiaofficial",
+            "original_text": "What is really driving liquidity in Malaysia’s equity market?\n\nOur latest analysis looks beyond headline flows to uncover how local institutions, foreign institutions and retail investors are shaping market behaviour across sectors and market-cap segments. Explore the insights and see how investor participation is changing.\n\nRead the report on MyBURSA at https://bit.ly/investorbehaviorinmsia \n\n#BursaDigitalResearch",
+            "id": "3171",
+            "date": "2026-07-03 08:13:26+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "DJI Mic Mini 2S Dilancarkan Dengan AI Pintar Dan Ekosistem DJI Lebih Baik\n\nhttps://cms.amanz.my/2026571648/",
+            "id": "55583",
+            "date": "2026-07-03 05:31:38+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Google Menawarkan 200 Patung Pixel Edisi Terhad Untuk Ditebus Pengguna Pixel Malaysia\n\nhttps://cms.amanz.my/2026571660/",
+            "id": "55584",
+            "date": "2026-07-03 06:28:30+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Meta Sedang Menguji Aplikasi Permainan Berasaskan AI Baharu — Pocket\n\nhttps://cms.amanz.my/2026571664/",
+            "id": "55585",
+            "date": "2026-07-03 06:44:59+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Razer Memperlihatkan Sejumlah Aksesori Gaming Dengan Bertemakan Wuthering Waves\n\nhttps://cms.amanz.my/2026571668/",
+            "id": "55586",
+            "date": "2026-07-03 07:28:00+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Pasport Malaysia Antarabangsa Dengan Tempoh Sah Laku 10 Tahun Kini Boleh Dipohon – RM350 Untuk 10 Tahun\n\nhttps://cms.amanz.my/2026571671/",
+            "id": "55587",
+            "date": "2026-07-03 07:34:50+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Meta’s Pocket App Can Code AI Minigames With Text Prompts\n\nUsing AI to help write code is nothing new. Taking that concept a step further, Meta has quietly soft-launched a new app called Pocket, which lets users create interactive AI-generated experiences – or “gizmos” – simply by entering text prompts. While the app has appeared on the Google Play Store, you can’t download it yet.…\n\nhttps://www.lowyat.net/2026/397572/meta-pocket-app-can-code-ai-minigames/",
+            "id": "12788",
+            "date": "2026-07-03 05:22:23+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Sony Already Repurposing Disc Factory To Make Microlenses\n\nPlayStation made the unpopular move of killing discs for games starting from 2028. You’d think that the move by Sony was piggybacking off of Grand Theft Auto VI not having one for the foreseeable future. But as it turns out, the truth may just be the other way round. The company has already begun converting…\n\nhttps://www.lowyat.net/2026/397575/sony-repurposing-disc-factory/",
+            "id": "12789",
+            "date": "2026-07-03 05:46:44+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Teksi Madani Programme Launched With Proton S70\n\nToday, Prime Minister Datuk Seri Anwar Ibrahim officially launched the Teksi Madani programme. This initiative is aimed at modernising the nation’s taxi industry. As part of the programme, the government is introducing a new taxi, as well as a few initiatives to support taxi drivers.\n\nMoving forward, the Proton S70 will serve as the new…\n\nhttps://www.lowyat.net/2026/397589/teksi-madani-proton-s70/",
+            "id": "12790",
+            "date": "2026-07-03 06:35:37+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Intel Has Quietly Raised The Price For The Core Ultra 7 270K Plus And Ultra 5 250K Plus\n\nIt appears that Intel has quietly raised the prices of its Core Ultra Plus 200S Plus desktop processors. And it’s thanks to the eagle eye of prominent leakster harukaze5719.\n\nAt launch, the original pricing for the Core Ultra 5 250K Plus and Ultra 7 270K Plus were set at US$199 (~RM809) and US$299 (~RM1,219) respectively,…\n\nhttps://www.lowyat.net/2026/397588/intel-raise-price-core-ultra-200s-plus/",
+            "id": "12791",
+            "date": "2026-07-03 07:08:15+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "BNM To Phase Out Proprietary QR Payment Networks In Malaysia By 2028\n\nBank Negara Malaysia (BNM) has announced plans to phase out proprietary QR payment networks over the next two years as part of its push towards a fully interoperable QR payment ecosystem. Under the central bank’s newly issued Interoperable Fund Transfer Framework (IFTF), existing proprietary systems must cease operations by 30 June 2028, while affected payment…\n\nhttps://www.lowyat.net/2026/397614/bnm-proprietary-qr-payment-networks-phase-out-2028/",
+            "id": "12792",
+            "date": "2026-07-03 07:52:28+00:00",
             "status": "Posted to FB"
         }
     ]
