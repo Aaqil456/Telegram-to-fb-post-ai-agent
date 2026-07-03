@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-03T11:06:05.364973",
+    "timestamp": "2026-07-03T13:06:12.048369",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -19116,6 +19116,34 @@
             "original_text": "Intel Seems To Have Restarted Production Of 13th And 14th Gen Core CPUs\n\nIn addition to quietly raising the SRP for its Core Ultra 200S Plus Series, Intel has reportedly restarted production of its older Raptor Lake desktop CPU lineup. The list includes both its 13th and 14th Gen CPUs.\n\nThe news stems from the China-based Channel Gate forums, with the original post (removed now) that the blue…\n\nhttps://www.lowyat.net/2026/397638/intel-restart-production-13th-14th-gen/",
             "id": "12799",
             "date": "2026-07-03 10:39:27+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🌐 **China hits 51.3 Tbps internet speed**\n\nChinese researchers achieved **51.3 Tbps internet speed** using hollow-core fiber optics, surpassing the default 100 Mbps by 513,000 times.\n\nThe **hollow-core fiber** transmits signals through an air channel instead of glass, reducing signal loss and boosting speed.\n\n**📊****@tech**",
+            "id": "3592",
+            "date": "2026-07-03 12:01:44+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Sokongan Kemas Kini Nothing Phone (1) Ditamatkan Secara Rasmi\n\nhttps://cms.amanz.my/2026571464/",
+            "id": "55591",
+            "date": "2026-07-03 11:06:57+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Alibaba Mengharamkan Pekerja Menggunakan Claude Code\n\nhttps://cms.amanz.my/2026571696/",
+            "id": "55592",
+            "date": "2026-07-03 12:42:27+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "New Leak Reveals Low Power Core Type In AMD Zen 6 Architecture\n\nA recent update on a LInux Kernel patch alludes to a new, third core type in AMD’s unreleased Zen 6 CPU architecture. Supposedly, the upcoming architecture could have a third “low power” core type.\n\nThe update was spotted by Phoronix, and honestly, it’s a sign that AMD is taking a page out of its rival,…\n\nhttps://www.lowyat.net/2026/397660/amd-zen-6-low-power-core-leak/",
+            "id": "12800",
+            "date": "2026-07-03 11:32:56+00:00",
             "status": "Posted to FB"
         }
     ]
