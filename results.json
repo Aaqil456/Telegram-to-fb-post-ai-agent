@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-03T15:22:30.080323",
+    "timestamp": "2026-07-03T16:53:03.061970",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -19158,6 +19158,13 @@
             "original_text": "Ura‑Ura: Oppo Didakwa Menamatkan Pembangunan OxygenOS Dan Realme UI\n\nhttps://cms.amanz.my/2026571699/",
             "id": "55593",
             "date": "2026-07-03 14:00:05+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "😐 **xAI launches Voice Agent Builder**\n\nxAI introduced **Voice Agent Builder**, a platform to create voice agents that handle calls and tasks over the phone. Users describe agent behavior in plain language, upload documents, connect tools, and the agent manages calls with background noise, accents, interruptions, and complex queries in **25 languages**.\n\nThe agents answer questions from uploaded documents, schedule meetings in **Google Calendar or Outlook**, check order status via APIs, search the internet for current info, and transfer calls to humans if needed. Each call is recorded with a transcript and action log.\n\n**📊****@tech**",
+            "id": "3593",
+            "date": "2026-07-03 16:01:43+00:00",
             "status": "Posted to FB"
         }
     ]
