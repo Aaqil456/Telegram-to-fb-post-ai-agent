@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-06T09:45:24.613307",
+    "timestamp": "2026-07-06T13:35:06.162402",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -19578,6 +19578,69 @@
             "original_text": "You Can Play Half-Life 2 Via Your Browser\n\nThe Half-Life series by Valve is legendary for a number of reasons, including its inability to have the number three in its title. The company previously gave the first game away for free as part of its 25th anniversary. Now, albeit unofficially, there’s a way to play Half-Life 2 at seemingly no cost. You can…\n\nhttps://www.lowyat.net/2026/397770/play-half-life-2-via-browser/",
             "id": "12819",
             "date": "2026-07-06 09:14:07+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/startupsi",
+            "original_text": "🤖 **Hackers Exploit LLM Hallucinations for Phishing**\n\n**Unit 42** uncovered over **13,000 malicious URLs** created by registering fake domains that large language models often hallucinate. These domains mimic real ones with patterns like name_download.com instead of.\n\nThis tactic, called **Phantom Squatting**, works like typosquatting but uses AI-generated fake URLs. The LLMs themselves suggest these phishing sites to users, removing the need for hackers to lure victims directly.\n\n**📊****@tech**",
+            "id": "3600",
+            "date": "2026-07-06 12:01:01+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: HYPERLIQUID TOTAL OPEN POSITIONS HIT NEW ATH\n\nSOURCE: https://app.coinmarketman.com/hypertracker/stats",
+            "id": "3865",
+            "date": "2026-07-06 10:49:46+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: SOLANA WEEKLY NON-VOTE TRANSACTION COUNT SURPASSES 1 BILLION FOR THE FIRST TIME IN HISTORY​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\n\nSOURCE: https://blockworks.com/analytics/solana",
+            "id": "3866",
+            "date": "2026-07-06 12:01:26+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "BREAKING: STRATEGY DECREASES $BTC HOLDINGS TO 843,775 $BTC \n\nSOURCE: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001050446/000119312526295586/mstr-20260706.htm",
+            "id": "3867",
+            "date": "2026-07-06 12:11:52+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Projek Pemeliharaan Permainan Video ICS Ditamatkan Selepas Wang Pelaburan Habis Digunakan\n\nhttps://cms.amanz.my/2026571774/",
+            "id": "55611",
+            "date": "2026-07-06 09:53:56+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/myedgeprop",
+            "original_text": "Construction sector valuation improves on easing Iran war risks, job acceleration — HLIB\n[(Read more)](https://www.edgeprop.my/content/1916650/construction-sector-valuation-improves-easing-iran-war-risks-job-acceleration-%E2%80%94-hlib)",
+            "id": "12389",
+            "date": "2026-07-06 11:53:35+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "M4G Is Officially Bringing The Steam Machine Into Malaysia\n\nLocal video game retailer M4G is officially bringing in Valve’s Steam Machine. The shop is already taking preorders from customers, and has been blasting the promotion on social media.\n\nWe asked M4G how much it would be selling the Steam Machine. The shop’s assistant wasn’t able to provide an exact price, but they did give…\n\nhttps://www.lowyat.net/2026/397536/m4g-steam-machine-malaysia/",
+            "id": "12820",
+            "date": "2026-07-06 10:14:51+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Jensen Huang’s Signed Leather Jacket Being Auctioned For Up To US$60,000\n\nNVIDIA CEO Jensen Huang is almost as well known for his signature leather jacket look as he is for leading one of the world’s biggest tech companies. Now, Sotheby’s is putting one of those iconic jackets up for auction. While the Tom Ford piece already carries a premium tag of its own, this one is…\n\nhttps://www.lowyat.net/2026/397807/jensen-huangs-signed-leather-jacket-being-auctioned-for-up-to-us60000/",
+            "id": "12821",
+            "date": "2026-07-06 10:35:46+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Steam Machine Gets Its Own Version Of The Red Ring Of Death\n\nMany things were previously said about the Steam Machine, including the way it’s meant to provide a console-like experience despite being a PC. Though arguably not quite the monkey’s paw curling, one user got the most unfortunate kind of console experience with the black cube. In a Reddit post, said user shared an image of…\n\nhttps://www.lowyat.net/2026/397820/steam-machine-its-red-ring-of-death/",
+            "id": "12822",
+            "date": "2026-07-06 10:45:04+00:00",
             "status": "Posted to FB"
         }
     ]
