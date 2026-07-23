@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-22T22:44:23.781926",
+    "timestamp": "2026-07-23T01:16:18.851401",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -23722,6 +23722,20 @@
             "original_text": "NEW: HYPERLIQUID OPEN INTEREST SURPASSES $11.5 BILLION - HIGHEST SINCE 10/10\n\nSOURCE: https://app.coinmarketman.com/hypertracker/stats\n\nhttps://x.com/DegenerateNews/status/2080047643917521106",
             "id": "3942",
             "date": "2026-07-22 21:50:34+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: BLOCKAID DETECTED AN EXPLOIT TARGETING ARBITRUM-BASED AFX TRADE - \"APPROXIMATELY 24.15M USDC HAS BEEN DRAINED THUS FAR FROM THE PROTOCOL\"\n\nhttps://x.com/DegenerateNews/status/2080084321503719500",
+            "id": "3943",
+            "date": "2026-07-23 00:16:04+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/bursamalaysiaofficial",
+            "original_text": "Daily Market Statistics\n(at close of 22/07/2026)\n\n[Explore detailed market data](https://my.bursamalaysia.com/market/assets/equities/overview)",
+            "id": "3202",
+            "date": "2026-07-23 00:43:56+00:00",
             "status": "Posted to FB"
         }
     ]
