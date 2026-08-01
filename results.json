@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-01T07:17:44.096574",
+    "timestamp": "2026-08-01T09:25:30.376763",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -26074,6 +26074,27 @@
             "original_text": "Steam Deck 1% Lows Gaming Performance Improved By AMD P-State Linux Patch\n\nA set of patches recently posted to the Linux kernel mailing list seems to improve the 1% low framerate performance, specifically on the Steam Deck. The patches basically implement new per-core Energy Performance Preference (EPP) boosting for recently-busy CPUs.\n\nFor Linux Gaming, this would technically translate to an improvement of 31.8% on the 1% lows…\n\nhttps://www.lowyat.net/2026/400332/steam-deck-1-lows-gaming-performance-improved-by-amd-p-state-linux-patch/",
             "id": "13124",
             "date": "2026-08-01 06:42:53+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Amazon Melengkapkan Pelaburan $50 Bilion Pada OpenAI – Mempunyai Pegangan Sekitar 5%\n\nhttps://cms.amanz.my/2026575433/",
+            "id": "55967",
+            "date": "2026-08-01 07:18:32+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/amanzmy",
+            "original_text": "Apple Akan Perkenal Langganan Berbayar Untuk Akses Tambahan Siri AI\n\nhttps://cms.amanz.my/2026575436/",
+            "id": "55968",
+            "date": "2026-08-01 07:57:20+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Casio Launches G-Shock Bold Camo Series; Consists Of Six Watches\n\nJapanese watch brand Casio has announced what it calls the Bold Camo series of G-Shock watches. As the name suggests, the immediately identifiable quality of the line is the camouflage print. But to make sure your watch doesn’t completely blend into the background, each member of the series is given various degrees of gold trim…\n\nhttps://www.lowyat.net/2026/400322/casio-g-shock-bold-camo-series/",
+            "id": "13125",
+            "date": "2026-08-01 08:22:31+00:00",
             "status": "Posted to FB"
         }
     ]
