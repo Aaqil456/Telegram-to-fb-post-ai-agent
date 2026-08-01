@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-01T04:41:26.516556",
+    "timestamp": "2026-08-01T07:17:44.096574",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -26060,6 +26060,20 @@
             "original_text": "Pergi Kilang Tanjung Malim Tengok Proton e.MAS 7 PHEV CKD\n\n[https://www.youtube.com/watch?v=-ZiW_ah0qpM](https://www.youtube.com/watch?v=-ZiW_ah0qpM)",
             "id": "55966",
             "date": "2026-08-01 02:09:46+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Sony Reaffirms Plans To End PlayStation Game Discs Despite Backlash\n\nSony appears to have no plans to reverse its decision to stop producing physical discs for new PlayStation games from 2028 onwards, despite continued backlash from players who remain opposed to an all-digital future. The company addressed the controversy during its latest earnings call, where its CFO Lin Tao acknowledged the strong reaction from the…\n\nhttps://www.lowyat.net/2026/400335/sony-reaffirms-ending-playstation-discs/",
+            "id": "13123",
+            "date": "2026-08-01 05:37:41+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Steam Deck 1% Lows Gaming Performance Improved By AMD P-State Linux Patch\n\nA set of patches recently posted to the Linux kernel mailing list seems to improve the 1% low framerate performance, specifically on the Steam Deck. The patches basically implement new per-core Energy Performance Preference (EPP) boosting for recently-busy CPUs.\n\nFor Linux Gaming, this would technically translate to an improvement of 31.8% on the 1% lows…\n\nhttps://www.lowyat.net/2026/400332/steam-deck-1-lows-gaming-performance-improved-by-amd-p-state-linux-patch/",
+            "id": "13124",
+            "date": "2026-08-01 06:42:53+00:00",
             "status": "Posted to FB"
         }
     ]
