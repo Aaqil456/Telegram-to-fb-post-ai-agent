@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-03T18:23:33.956520",
+    "timestamp": "2026-08-03T20:09:30.845538",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -26417,6 +26417,13 @@
             "original_text": "NEW: TRADING APP FOMO BREAKS INTO THE TOP 10 U.S. IPHONE FINANCE CHARTS ON THE APPSTORE \n\nSOURCE: https://apps.apple.com/us/iphone/charts/6015",
             "id": "4001",
             "date": "2026-08-03 18:18:23+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/DegenerateNews",
+            "original_text": "NEW: SOLANA DOUBLE DISINFLATION PROPOSAL GOES LIVE\n\nSOURCE: https://governance.solana.com/proposal/7QJD8MzheHWJLHS39NkoAbFCGFKg5d9QbVviRqD4YExP",
+            "id": "4002",
+            "date": "2026-08-03 20:02:04+00:00",
             "status": "Posted to FB"
         }
     ]
