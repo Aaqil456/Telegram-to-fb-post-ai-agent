@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-09T10:48:45.542014",
+    "timestamp": "2026-08-09T11:15:48.961998",
     "messages": [
         {
             "channel_link": "https://t.me/salamkrypto",
@@ -27908,6 +27908,13 @@
             "original_text": "BREAKING: FOMO FLIPS HYPERLIQUID IN 24H REVENUE\n\nSOURCE: https://defillama.com/",
             "id": "4032",
             "date": "2026-08-09 10:15:24+00:00",
+            "status": "Posted to FB"
+        },
+        {
+            "channel_link": "https://t.me/lowyatdotnet",
+            "original_text": "Microsoft Edge To End Support For Manifest V2; Cutting Off Older Ad Blockers\n\nEarly last month, alternative search engine DuckDuckGo announced that its browser will integrate ad blocking for YouTube ads, powered by uBlock Origin. This month, Microsoft announced the opposite for its Edge browser, though it’s a move that’s pretty in line with the primary Chromium browser, Google Chrome itself. This means that it will be completely…\n\nhttps://www.lowyat.net/2026/400955/microsoft-edge-end-support-manifest-v2/",
+            "id": "13202",
+            "date": "2026-08-09 10:56:51+00:00",
             "status": "Posted to FB"
         }
     ]
